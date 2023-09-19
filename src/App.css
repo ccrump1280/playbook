@@ -3,8 +3,22 @@
   padding: 2rem;
   text-align: center;
   height: 100vh;
+  background-color: #53565B;
 }
+
 .backfield {
   width: 100%;
-  max-width: 800px;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.player {
+  white-space: nowrap;
+  color: white;
+  font-size: clamp(0.3rem, 2.6vw, 0.75rem);
+  aspect-ratio: 1;
+  background-color: #8B0000;
+  border-radius: 10px;
+  border: 1px solid black;
 }
